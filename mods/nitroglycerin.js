@@ -14,13 +14,22 @@
 elements.glycerin = {
     color: "#ffff00",
     behavior: behaviors.POWDER,
-    category: "powder",
+    category: "powders",
     state: "powder",
     density: 1100,
+    hidden: false,
     reactions: {
         "potassium": { elem1:"explosion", elem2:null, chance:1 },
     },
     viscosity: 60000,
+},
+elements.nitroglycerin =  {
+    color: "#ffea00",
+    behavior: behaviors.POWDER,
+    category: "weapons",
+    state: "powder",
+    tempHigh: 150,
+    stateHigh: "explosion",
 }
 
 // Removing elements:
