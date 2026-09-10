@@ -1,5 +1,5 @@
 // Version v0.1 
-console.log("Build Number 1.0"); // Fixed: Added semi-colon here
+console.log("Build Number 1.0"); 
 
 // Plutonium
 if (!elements) var elements = {}; 
@@ -31,16 +31,20 @@ elements.plutonium = {
             elem2: null // Absorbs/deletes the neutron pixel 
         } 
     } 
-}, // Fixed: Cleaned up structure before the next element
+}; // Fixed: Changed the comma into a semi-colon here to stop the script crash
 
 // Turbine
-elements.turbine = {
-    color: "#00ffff",
-    behavior: behaviors.WALL,
-    category: "machines",
-    conduct: 1,
-    state: "solid",
-    reactions: {
-        "steam": {"charge1":1},
-    },
-},
+elements.turbine = { 
+    color: "#00ffff", 
+    behavior: behaviors.WALL, 
+    category: "machines", 
+    conduct: 1, 
+    state: "solid", 
+    reactions: { 
+        "steam": {
+            elem1: "turbine", // Turbine stays a turbine
+            charge1: 1,       // Applies electrical charge to the turbine [1.13]
+            elem2: "steam"    // Steam stays steam
+        }
+    } 
+};
