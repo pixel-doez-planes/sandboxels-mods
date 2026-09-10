@@ -3,9 +3,7 @@ console.log("Build Number 1.0");
 
 // Plutonium
 if (!elements) var elements = {};
-function plutoniumTick(pixel) {
-    pixel.temp = pixel.temp + 1
-}
+
 elements.plutonium = {
     colorOnDemand: function() { 
         return shuffledHexColor("#46bd44", 15); 
@@ -18,7 +16,6 @@ elements.plutonium = {
     ],
     category: "solid",
     state: "solid",
-    tick: (pixel) => plutoniumTick(pixel),
     temp: 20,
     // Heating properties (Explodes at 100°C) 
     tempHigh: 3000,
