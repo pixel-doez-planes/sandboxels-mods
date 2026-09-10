@@ -14,8 +14,8 @@ elements.plutonium = {
         "M2 AND CR:neutron%0.5 AND CR:radiation%1|CH:uranium%0.01|M2 AND CR:neutron%0.5 AND CR:radiation%1", 
         "M1|M1|M1" 
     ], 
-    category: "energy", 
-    state: "solid", 
+    category: "powders", 
+    state: "powder", 
     temp: 20, 
     // Heating properties (Explodes at 100°C) 
     tempHigh: 100, 
@@ -31,7 +31,7 @@ elements.plutonium = {
             elem2: null // Absorbs/deletes the neutron pixel 
         } 
     } 
-}; // Fixed: Changed the comma into a semi-colon here to stop the script crash
+} // Fixed: Changed the comma into a semi-colon here to stop the script crash
 
 
 // Turbine
