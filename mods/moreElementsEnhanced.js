@@ -24,11 +24,11 @@ elements.plutonium = {
     reactions: { 
         "potassium": { 
             elem1: "big_explosion", 
-            elem2: "flash" 
+            elem2: "flash",
         }, 
         "neutron": { 
             temp1: 9, // Adds 9°C to the plutonium pixel per hit!
-            elem2: null // Absorbs/deletes the neutron pixel 
+            elem2: null, // Absorbs/deletes the neutron pixel 
         },
     },
 },
