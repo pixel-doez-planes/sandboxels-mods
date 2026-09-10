@@ -18,7 +18,7 @@ elements.plutonium = {
     ],
     category: "solid",
     state: "solid",
-    tick: (pixel) => plutoniumTick()
+    tick: (pixel) => plutoniumTick(pixel),
     temp: 20,
     // Heating properties (Explodes at 100°C) 
     tempHigh: 3000,
