@@ -31,6 +31,15 @@ elements.plutonium = {
             elem2: null // Absorbs/deletes the neutron pixel 
         } 
     } 
-}; // Fixed: Cleaned up structure before the next element
+}, // Fixed: Cleaned up structure before the next element
 
 // Turbine
+elements.turbine = {
+    color: "#00ffff",
+    behavior: behaviors.WALL,
+    category: "machines",
+    conduct: 1,
+    reactions: {
+        "steam": {"charge1":1},
+    },
+},
