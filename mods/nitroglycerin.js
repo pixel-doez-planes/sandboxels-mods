@@ -11,6 +11,15 @@
 // If it is hosted somewhere else, you can use the full URL, including the HTTPS://.
 
 // Adding elements:
+elements.pure_potassium = {
+    color: "#ffffff",
+    behavior: behaviors.POWDER,
+    category: "powders",
+    state: "powder",
+    reactions: {
+        "water": { elem1:"explosion", elem2:null, chance:0.9 },
+    }
+},
 elements.glycerin = {
     color: "#ffff00",
     behavior: behaviors.POWDER,
@@ -19,7 +28,7 @@ elements.glycerin = {
     density: 1100,
     hidden: false,
     reactions: {
-        "potassium": { elem1:"explosion", elem2:null, chance:1 },
+        "pure_potassium": { elem1:"explosion", elem2:null, chance:1 },
     },
     viscosity: 60000,
 },
