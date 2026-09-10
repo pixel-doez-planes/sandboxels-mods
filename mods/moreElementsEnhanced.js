@@ -39,3 +39,14 @@ elements.plutonium = {
     }
 };
 
+// Turbine
+elements.turbine = {
+    color: "#00fff",
+    behavior: behaviors.WALL,
+    category: "machines",
+    conduct: 1,
+    reactions: {
+        "steam": {"charge1":1},
+    },
+},
+
