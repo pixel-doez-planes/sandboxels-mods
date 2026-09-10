@@ -7,5 +7,6 @@ elements.plutonium = {
   colorOnDemand: function() {
         return shuffledCleanHex("#46bd44", 15); // 15% brightness variation
   },
-  behaviour:\
+  behaviour: behaviors.SOLID,
+  state: "solid",
 },
