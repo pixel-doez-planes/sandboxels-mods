@@ -28,7 +28,7 @@ elements.glycerin = {
     density: 1100,
     hidden: false,
     reactions: {
-        "pure_potassium": { elem1:"explosion", elem2:null, chance:1 },
+        "pure_potassium": { elem1:"nitroglycerin", elem2:null, chance:1 },
     },
     viscosity: 60000,
 },
