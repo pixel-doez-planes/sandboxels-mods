@@ -39,6 +39,7 @@ elements.turbine = {
     behavior: behaviors.WALL,
     category: "machines",
     conduct: 1,
+    state: "solid",
     reactions: {
         "steam": {"charge1":1},
     },
