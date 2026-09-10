@@ -41,12 +41,6 @@ elements.turbine = {
     category: "machines",
     conduct: 1,
     state: "solid",
-    reactions: {
-        "steam": {
-            elem1: "turbine",
-            charge1: 1,
-            elem2: "steam"
-        },
     },
 }
 
