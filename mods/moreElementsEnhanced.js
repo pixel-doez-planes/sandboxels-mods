@@ -35,18 +35,18 @@ elements.plutonium = {
 
 
 // Turbine
-/* elements.turbine = { 
-    color: "#00ffff", 
-    behavior: behaviors.WALL, 
-    category: "machines", 
-    conduct: 1, 
-    state: "solid", 
+elements.turbine = { 
+    color: "#00ffff",
+    behavior: behaviors.WALL,
+    category: "machines",
+    conduct: 1,
+    state: "solid",
     reactions: { 
         "steam": {
             elem1: "turbine", // Turbine stays a turbine
             charge1: 1,       // Applies electrical charge to the turbine [1.13]
             elem2: "steam"    // Steam stays steam
-        }
-    } 
+        },
+    }, 
 };
-*/
+
