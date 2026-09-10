@@ -41,7 +41,7 @@ elements.plutonium = {
 
 // Turbine
 elements.turbine = {
-    color: "#00fff",
+    color: "#00ffff",
     behavior: behaviors.WALL,
     category: "machines",
     conduct: 1,
