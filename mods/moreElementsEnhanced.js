@@ -18,7 +18,7 @@ elements.plutonium = {
     state: "solid",
     temp: 20,
     // Heating properties (Explodes at 100°C) 
-    tempHigh: 3000,
+    tempHigh: 100,
     stateHigh: "big_explosion",
     // Reactions object handling both Potassium and Neutrons 
     reactions: { 
