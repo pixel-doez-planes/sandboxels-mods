@@ -37,8 +37,9 @@ elements.nitroglycerin =  {
     behavior: behaviors.POWDER,
     category: "weapons",
     state: "powder",
-    tempHigh: 150,
+    tempHigh: 300,
     stateHigh: "explosion",
+    viscosity: 60000,
 }
 
 // Removing elements:
