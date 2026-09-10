@@ -2,7 +2,7 @@
 console.log("Build Number 1.0"); 
 
 // Plutonium
-if (!elements) var elements = {}; 
+if (!elements) var elements = {};
 
 elements.plutonium = {
     colorOnDemand: function() { 
@@ -13,13 +13,13 @@ elements.plutonium = {
         "XX|CR:fire%1 AND CR:neutron%0.5 AND CR:radiation%1|XX", 
         "M2 AND CR:neutron%0.5 AND CR:radiation%1|CH:uranium%0.01|M2 AND CR:neutron%0.5 AND CR:radiation%1", 
         "M1|M1|M1" 
-    ], 
-    category: "powders", 
-    state: "powder", 
-    temp: 20, 
+    ],
+    category: "powders",
+    state: "powder",
+    temp: 20,
     // Heating properties (Explodes at 100°C) 
-    tempHigh: 100, 
-    stateHigh: "big_explosion", 
+    tempHigh: 100,
+    stateHigh: "big_explosion",
     // Reactions object handling both Potassium and Neutrons 
     reactions: { 
         "potassium": { 
@@ -29,8 +29,8 @@ elements.plutonium = {
         "neutron": { 
             temp1: 9, // Adds 9°C to the plutonium pixel per hit!
             elem2: null // Absorbs/deletes the neutron pixel 
-        } 
-    } 
+        }, 
+    }, 
 } // Fixed: Changed the comma into a semi-colon here to stop the script crash
 
 
