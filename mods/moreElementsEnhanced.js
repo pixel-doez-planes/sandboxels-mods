@@ -4,7 +4,7 @@ console.log("Build Number 1.0");
 // Plutonium
 if (!elements) var elements = {}; 
 
-/* elements.plutonium = {
+elements.plutonium = {
     colorOnDemand: function() { 
         return shuffledHexColor("#46bd44", 15); 
     },
@@ -32,10 +32,10 @@ if (!elements) var elements = {};
         } 
     } 
 }; // Fixed: Changed the comma into a semi-colon here to stop the script crash
-*/
+
 
 // Turbine
-elements.turbine = { 
+/* elements.turbine = { 
     color: "#00ffff", 
     behavior: behaviors.WALL, 
     category: "machines", 
@@ -49,3 +49,4 @@ elements.turbine = {
         }
     } 
 };
+*/
