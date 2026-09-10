@@ -31,7 +31,7 @@ elements.plutonium = {
             elem2: null // Absorbs/deletes the neutron pixel 
         }, 
     }, 
-} // Fixed: Changed the comma into a semi-colon here to stop the script crash
+},
 
 
 // Turbine
@@ -41,6 +41,12 @@ elements.turbine = {
     category: "machines",
     conduct: 1,
     state: "solid",
+    reactions: {
+        "steam": {
+            elem1: "turbine",
+            charge1: 1,
+            elem2: "steam"
+        },
     },
 }
 
