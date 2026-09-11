@@ -14,7 +14,7 @@ elements.plutonium = {
         "M2 AND CR:neutron%0.5 AND CR:radiation%1|CH:uranium%0.01|M2 AND CR:neutron%0.5 AND CR:radiation%1", 
         "M1|M1|M1"
     ],
-    category: "solid",
+    category: "solids",
     state: "solid",
     temp: 20,
     // Heating properties (Explodes at 100°C) 
