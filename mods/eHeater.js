@@ -1,3 +1,5 @@
+alert("Loaded - Debug")
+
 elements.e_heater = {
     color: "#b22222", // Firebrick red color
     behavior: [
