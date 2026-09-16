@@ -1,3 +1,6 @@
+window.onError = function (msg) {
+  alert(msg);
+}
 elements.test = {
   name: "test",
   state: "solid",
